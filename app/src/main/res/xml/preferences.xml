@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_favorites">
+        <EditTextPreference
+            android:key="pref_favorite_actors"
+            android:title="@string/fav_actors_title"
+            android:summary="@string/fav_actors_summary"
+            android:defaultValue="@string/fav_actors_default" />
+        <EditTextPreference
+            android:key="pref_favorite_shows"
+            android:title="@string/fav_shows_title"
+            android:summary="@string/fav_shows_summary"
+            android:defaultValue="@string/fav_shows_default" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_shows_listing">
+        <SwitchPreference
+            android:key="pref_hide_extras"
+            android:title="@string/hide_extras_title"
+            android:summaryOn="@string/hide_extras_on"
+            android:summaryOff="@string/hide_extras_off"
+            android:defaultValue="true" />
+        <SwitchPreference
+            android:key="pref_combine_continuous"
+            android:title="@string/combine_episodes_title"
+            android:summaryOn="@string/combine_episodes_on"
+            android:summaryOff="@string/combine_episodes_off"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_refresh">
+        <SwitchPreference
+            android:key="next_day_refresh"
+            android:title="@string/next_day_refresh_title"
+            android:summaryOn="@string/next_day_refresh_on"
+            android:summaryOff="@string/next_day_refresh_off"
+            android:defaultValue="false" />
+        <SwitchPreference
+            android:key="auto_refresh"
+            android:title="@string/auto_refresh_title"
+            android:summary="@string/auto_refresh_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="now_showing"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_live_tv"
+        android:shortcutShortLabel="@string/fragment_title_now_showing"
+        android:shortcutLongLabel="@string/fragment_title_now_showing"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="com.psyclone.fan.nowshowing"
+            android:targetPackage="com.psyclone.fan"
+            android:targetClass="com.psyclone.fan.activities.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="tv_guide"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_local_movies"
+        android:shortcutShortLabel="@string/fragment_title_tv_guide"
+        android:shortcutLongLabel="@string/fragment_title_tv_guide"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="com.psyclone.fan.tvguide"
+            android:targetPackage="com.psyclone.fan"
+            android:targetClass="com.psyclone.fan.activities.MainActivity" />
+    </shortcut>
+</shortcuts>
