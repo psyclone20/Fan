@@ -1,6 +1,8 @@
 # ![](https://github.com/psyclone20/Fan/blob/master/app/src/main/res/mipmap-mdpi/ic_launcher.png) Fan
 An Android application to help you catch your favorite shows on TV.
+
 You can specify your favorite actors and favorite shows and the app will notify you daily if any of those shows are scheduled for the day.
+
 **Note:** The app is only intended for Indian users
 
 # Screenshots
