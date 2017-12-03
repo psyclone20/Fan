@@ -29,6 +29,8 @@ import com.psyclone.fan.helpers.NotificationHelper;
 
 import java.util.Set;
 
+// A sample comment to see if Git sync works
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final long DRAWER_DELAY = 250;
 
